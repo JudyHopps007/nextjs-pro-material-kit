@@ -20,7 +20,7 @@ import Button from "/components/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit/components/headerLinksStyle.js";
 
-const useStyles = makeStyles(styles);
+const useStyles = makeStyles(styles); 
 
 export default function HeaderLinks(props) {
   const classes = useStyles();
